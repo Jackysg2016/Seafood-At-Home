@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FZCUYJ.ttf">
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderManagementTableViewCell" rowHeight="64" id="KGk-i7-Jjw" customClass="OrderManagementTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单号：ABC42358328" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-om-wjy">
+                        <rect key="frame" x="8" y="8" width="166" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Tgk-on-Ied"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易成功" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INs-8e-Tmm">
+                        <rect key="frame" x="182" y="8" width="109" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="9Yt-Ta-UEF"/>
+                            <constraint firstAttribute="width" constant="109" id="cYI-VF-N11"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="霸王蟹，超级霸王蟹，明虾，霸王蟹，超级霸王蟹，明虾" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfA-QG-hPW">
+                        <rect key="frame" x="8" y="29" width="205" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="W9y-hM-yam"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99993.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-SC-eON">
+                        <rect key="frame" x="214" y="33" width="77" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="iOn-Ir-Z7w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="hAb-cU-LJf">
+                        <rect key="frame" x="305" y="24" width="7" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="IhJ-aU-UxA"/>
+                            <constraint firstAttribute="width" constant="7" id="OJW-br-6ds"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fZb-om-wjy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9OL-6f-Rvq"/>
+                    <constraint firstAttribute="trailing" secondItem="INs-8e-Tmm" secondAttribute="trailing" constant="29" id="Bnm-RY-jD6"/>
+                    <constraint firstAttribute="trailing" secondItem="fZb-om-wjy" secondAttribute="trailing" constant="146" id="CLo-2E-vz1"/>
+                    <constraint firstAttribute="trailing" secondItem="NfA-QG-hPW" secondAttribute="trailing" constant="107" id="HLG-6b-iTf"/>
+                    <constraint firstItem="hAb-cU-LJf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="SDt-64-B87"/>
+                    <constraint firstItem="NfA-QG-hPW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Ws8-Yd-2TU"/>
+                    <constraint firstItem="Fe9-SC-eON" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="214" id="ahH-Bj-vOf"/>
+                    <constraint firstAttribute="trailing" secondItem="hAb-cU-LJf" secondAttribute="trailing" constant="8" id="dGs-RE-TDD"/>
+                    <constraint firstItem="fZb-om-wjy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="geC-O6-ep8"/>
+                    <constraint firstAttribute="trailing" secondItem="Fe9-SC-eON" secondAttribute="trailing" constant="29" id="jBZ-hZ-2gw"/>
+                    <constraint firstItem="INs-8e-Tmm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="mzF-Dh-y8b"/>
+                    <constraint firstItem="NfA-QG-hPW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="uJy-LP-TQT"/>
+                    <constraint firstItem="Fe9-SC-eON" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="wrC-f9-9tY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="orderNumberLabel" destination="fZb-om-wjy" id="Fma-Ns-rDf"/>
+                <outlet property="priceLabel" destination="Fe9-SC-eON" id="x81-u8-NfX"/>
+                <outlet property="statusLabel" destination="INs-8e-Tmm" id="kls-5a-ehP"/>
+                <outlet property="titleLabel" destination="NfA-QG-hPW" id="XAS-6N-Zrx"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="121"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_black_right.png" width="9" height="13"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FZCUYJ.ttf">
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gTV-IL-0wX" customClass="DetailTextCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大帝皇蟹" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" id="xOq-Gw-9X1">
+                        <rect key="frame" x="10" y="8" width="300" height="33"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="30"/>
+                        <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="cLV-L3-QB4">
+                        <rect key="frame" x="10" y="45" width="300" height="182"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <string key="text">       帝王蟹又名石蟹或岩蟹，即石蟹科的甲壳类，不是真正的螃蟹，它们主要分布在寒冷的海域。因其体型巨大而得名，素有“蟹中之王”的美誉。它与皇帝蟹（巨大拟滨蟹）不是一种蟹类，请勿混淆。由于它们的体型巨大及肉质美味，很多物种都被广泛捕捉来作为食物，当中最为普遍的是堪察加拟石蟹。帝王蟹属于深海蟹类，生存深度达850米之深，生存水温在2-5℃。帝王蟹能够生存的最低水温是1.4摄氏度。2011年9月，在位于南极洲近海大陆架下850米的一处泥床盆地，科学家发现超过100万只巨型帝王蟹。科学家称，这种外来的大型食肉动物的出现，可能是南极海域一场生态浩劫的最初迹象。</string>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="13"/>
+                        <color key="textColor" red="0.36047979800000002" green="0.36047979800000002" blue="0.36047979800000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <size key="customSize" width="320" height="232"/>
+            <connections>
+                <outlet property="detailLabel" destination="cLV-L3-QB4" id="yrO-cM-H1P"/>
+                <outlet property="titleLabel" destination="xOq-Gw-9X1" id="wha-fK-zeg"/>
+            </connections>
+            <point key="canvasLocation" x="-382" y="112"/>
+        </collectionViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

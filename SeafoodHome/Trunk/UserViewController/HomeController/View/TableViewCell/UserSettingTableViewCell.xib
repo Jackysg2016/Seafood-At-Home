@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FZCUYJ.ttf">
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+            <string>FZY4JW--GB1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="126" id="KGk-i7-Jjw" customClass="UserSettingTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NpE-9I-nwi">
+                        <rect key="frame" x="2" y="88" width="148" height="42"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="12" minY="-7" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="预定信息设置">
+                            <color key="titleColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="i7y-MR-jak">
+                        <rect key="frame" x="160" y="86" width="154" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="12" minY="-7" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="支付管理">
+                            <color key="titleColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" id="FXS-xN-tP2">
+                        <rect key="frame" x="113" y="16" width="4" height="7"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" id="arh-Hb-CR5">
+                        <rect key="frame" x="299" y="16" width="4" height="7"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" id="0Z2-MJ-Elj">
+                        <rect key="frame" x="205" y="58" width="4" height="7"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" id="x85-D7-R53">
+                        <rect key="frame" x="246" y="101" width="4" height="7"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_black_right.png" id="5G5-rX-cY8">
+                        <rect key="frame" x="113" y="101" width="4" height="7"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P6g-L2-J2S">
+                        <rect key="frame" x="0.0" y="40" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.8351584661" green="0.83723958330000003" blue="0.80088764889999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rFr-ST-u7S">
+                        <rect key="frame" x="0.0" y="82" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.8351584661" green="0.83723958330000003" blue="0.80088764889999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z2O-q6-RBq">
+                        <rect key="frame" x="0.0" y="125" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.83515846609515532" green="0.83723958333333337" blue="0.80088764892970354" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6qk-4d-dCs">
+                        <rect key="frame" x="2" y="2" width="139" height="41"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="12" minY="-7" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="修改个人信息">
+                            <color key="titleColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="绑定的邮箱或手机" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Ch-vD-ICV">
+                        <rect key="frame" x="14" y="46" width="288" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y2M-Jv-k40">
+                        <rect key="frame" x="170" y="0.0" width="134" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（需验证）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NZb-M7-WgH">
+                        <rect key="frame" x="224" y="9" width="79" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <color key="textColor" red="0.6588235294" green="0.6588235294" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（需验证）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MZf-CX-lpq">
+                        <rect key="frame" x="124" y="52" width="79" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="FZY4JW--GB1-0" family="FZCuYuan-M03S" pointSize="14"/>
+                        <color key="textColor" red="0.6588235294117647" green="0.6588235294117647" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="boundMailOrPhone" destination="5Ch-vD-ICV" id="owc-z0-Q6M"/>
+                <outlet property="changePassword" destination="y2M-Jv-k40" id="cHo-el-uQ3"/>
+                <outlet property="changeSelfInfo" destination="6qk-4d-dCs" id="3sY-Ke-sqG"/>
+                <outlet property="payManage" destination="i7y-MR-jak" id="Sbp-HD-yLB"/>
+                <outlet property="readyInfoSetting" destination="NpE-9I-nwi" id="cs7-bU-cR8"/>
+            </connections>
+            <point key="canvasLocation" x="444" y="237.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_black_right.png" width="9" height="13"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
