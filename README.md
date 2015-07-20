@@ -1,14 +1,17 @@
 # Seafood-At-Home
 
-The owner abandoned the project because , now open source .
+The owner abandoned the project because, now open source .
 
 Seafood-At-Home for iOS on the App Store on iTunes Source Code.
 [https://itunes.apple.com/us/app/hai-xian-dao-jia/id962663219?l=zh&ls=1&mt=8](https://itunes.apple.com/us/app/hai-xian-dao-jia/id962663219?l=zh&ls=1&mt=8)
 
-> Demo Account: 15918550637
+> Demo Account
+>
+> Username:15918550637
+>
 > Password: abc
 
-**Important Note: This item only learning to use , prohibit the use of the item for other purposes.**
+**Important Note: This item only learning to use, prohibit the use of the item for other purposes.**
 
 ---
 ## ScreenShots
