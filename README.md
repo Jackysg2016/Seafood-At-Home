@@ -14,7 +14,7 @@ Seafood-At-Home for iOS on the App Store on iTunes Source Code.
 **Important Note: This item only learning to use, prohibit the use of the item for other purposes.**
 
 ---
-## ScreenShots
+## Screenshots
 <table align="center">
     <tr>
         <td><img src="ScreenShots/01.PNG" /></td>
