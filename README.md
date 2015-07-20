@@ -39,7 +39,9 @@ Seafood-At-Home for iOS on the App Store on iTunes Source Code.
 
 ## LICENSE
 
-`BWMCoverView` is available under the Apache license.
+`Seafood-At-Home` is available under the GPL license.
+
+**Important Note: This item only learning to use, prohibit the use of the item for other purposes.**
 
 ## Contact
 
