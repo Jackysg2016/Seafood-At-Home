@@ -22,10 +22,10 @@ Seafood-At-Home for iOS on the App Store on iTunes Source Code.
 
 ## Introduce
 
-本店以进口海鲜为主，针对广州本地区客户对海鲜的购买需求而量身定做，带给您前所未有的视觉和味觉体验，还有更多惊喜等着您哦。
-新西兰的青口和鳌虾、法国的银鳕鱼和生蚝、澳洲的鲍鱼和龙虾、加拿大的翡翠螺还有海胆越南虎虾、挪威三文鱼、北海道松叶蟹、朝鲜赤贝、波斯湾龙虾等等......
+OUR imported seafood for Guangzhou in the region demand for customers to buy seafood tailored to bring you an unprecedented visual and taste experience , there are more surprises waiting for you oh .
+New Zealand mussels and crayfish , France, cod and oysters, abalone and lobster Australia , Canada, as well as sea urchins Vietnam emerald snail tiger prawns , Norwegian salmon , Hokkaido king crab , red shell Korea , the Persian Gulf, lobster and so on.
 
-种类齐全应有尽有，来到海鲜到家，保证满足您所有味蕾！
+Full range of everything , come seafood home, guaranteed to meet all of your taste buds !
 
 ## Screenshots
 <table align="center">
